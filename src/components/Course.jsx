@@ -21,7 +21,7 @@ const Part = (props) => {
 const Total = (props) => {
   const parts = props.course.parts;
   const sum = parts.reduce((total, part) => total + part.exercises, 0);
-  return <p>Number of exercises {sum}</p>;
+  return <p><strong>Total of {sum} exercises</strong></p>;
 };
 
 const Course = ({ course }) => {
