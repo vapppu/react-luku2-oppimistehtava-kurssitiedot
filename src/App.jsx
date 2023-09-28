@@ -1,6 +1,6 @@
 import Course from './components/Course'
 
-const App = () => {
+const App = ({notes}) => {
 
   const course = {
     name: "Half Stack application development",
@@ -16,7 +16,7 @@ const App = () => {
       {
         name: "State of a component",
         exercises: 14,
-      },
+      }
     ],
   };
 
