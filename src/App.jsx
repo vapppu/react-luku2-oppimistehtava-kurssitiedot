@@ -1,7 +1,6 @@
-import Course from './components/Course'
+import Course from "./components/Course";
 
-const App = ({notes}) => {
-
+const App = ({ notes }) => {
   const course = {
     name: "Half Stack application development",
     parts: [
@@ -16,13 +15,11 @@ const App = ({notes}) => {
       {
         name: "State of a component",
         exercises: 14,
-      }
+      },
     ],
   };
 
-  return (
-    <Course course={course} />
-  );
+  return <Course course={course} />;
 };
 
 export default App;
