@@ -25,6 +25,9 @@ const Total = (props) => {
 };
 
 const App = () => {
+
+  console.log("Testing the new repo")
+
   const course = {
     name: "Half Stack application development",
     parts: [
